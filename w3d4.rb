@@ -7,23 +7,26 @@
 # Let's write a `Stack` class. To do this, use the following framework:
 
 # ```ruby
-# class Stack
-#   def initialize
+class Stack
+  def initialize
+    
 #     # create ivar to store stack here!
-#   end
+  end
 
-#   def push(el)
+  def push(el)
+    self.push(ele)
 #     # adds an element to the stack
-#   end
+  end
 
-#   def pop
+  def pop(el)
+    self.pop(el)
 #     # removes one element from the stack
-#   end
+  end
 
-#   def peek
+  def peek
 #     # returns, but doesn't remove, the top element in the stack
-#   end
-# end
+  end
+end
 # ```
 
 # To test that your code works, create a new instance of the `Stack` class, and
@@ -55,4 +58,3 @@
 
 # As always, test your code thoroughly to make sure all properties of maps are
 # enforced.
-
