@@ -7,7 +7,7 @@ def sluggish(fishes)
     end
 end
 
-class Array
+class Array #maybe not
     def merge_sort(&prc)
         prc ||= Proc.new{ |a,b| a<=>b }
         return self if self.length <= 1
