@@ -1,0 +1,28 @@
+/* PHASE 1: Header */
+
+body {
+  font: sans_serif;
+  size: 12px;
+  font-weight: 400;
+  background-color: blanchedalmond;
+}
+
+.header {
+  background-color: aqua;
+  color:blueviolet;
+  border-bottom: 1px solid chartreuse;
+
+}
+
+.header a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.header-nav {
+  margin: 0 auto;
+  width: 800px;
+  border-left: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+
+}
